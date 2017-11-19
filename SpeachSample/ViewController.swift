@@ -56,8 +56,7 @@ class ViewController: UIViewController {
         volume = userDefaults.float(forKey: "volume")
         preUtternceDelay = userDefaults.double(forKey: "preUtteranceDelay")
         
-        
-    
+        speachTextField.text = speachText
     
     }
 
